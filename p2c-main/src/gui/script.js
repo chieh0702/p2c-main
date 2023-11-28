@@ -46,7 +46,7 @@ function genListBox(name, context) {
         const inputField = document.getElementById('input_field');
 
 
-        //他沒有辦法讀到copy是不是因為沒有按enter?可是如果用keydown變數就好像就不能用click
+        //他沒有辦法讀到copy是不是因為沒有按enter?下面這個註解是有enter鍵的，可是如果用keydown變數就好像就不能用click
     
         /*inputField.addEventListener('keydown', (event) => {
             if (event.key === 'Enter') {
