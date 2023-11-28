@@ -1,0 +1,17 @@
+
+Usage: gendf -f IMAGE_NAME[:TAG] [options] [arguments]
+
+Options:
+  -a, --add SOURCE:DEST        Add a file to the image (can be used multiple times)
+  -c, --copy SOURCE:DEST       Copy from SOURCE to DEST (can be used multiple times)
+  -e, --env "KEY=VALUE"        Set environment variable (can be used multiple times)
+  -f, --from IMAGE_NAME[:TAG]  Set the base image to IMAGE_NAME:TAG
+  -h, --help                   Show this help page
+  -i, --ignore "CONTEXT"       Ignore a file during the copy process
+  -m, --cmd "COMMAND"          Set the default command to execute
+  -n, --entrypoint "COMMAND"   Set the entry point for the container
+  -o, --output "DIR"           Write Dockerfile to DIR
+  -p, --expose PORT[/TYPE]     Expose a port to the host (can be used multiple times)
+  -r, --run "COMMAND"          Run a command during the image build process
+
+Documentation can be found at https://p2c.tremote.tk/docs/ //TODO

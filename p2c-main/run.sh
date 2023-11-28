@@ -1,0 +1,1 @@
+docker run --rm -it -v /mnt/e/github/p2c:/mnt/p2c p2c_debian:stable
